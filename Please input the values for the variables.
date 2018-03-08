@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ float celsius;
+ float fahrenheit;
+ 
+ float lower, upper, step;
+ 
+ printf("Please input the values for the variables.\n");
+ printf("lower: ");
+ scanf("%f",&lower);
+ printf("upper: ");
+ scanf("%f",&upper);
+ printf("step: ");
+ scanf("%f",step);
+ 
+ 
+ return 0;
+}
