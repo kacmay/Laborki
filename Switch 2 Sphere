@@ -24,7 +24,7 @@ int main()
             break;
             default: printf("Wrong input");
         }
-        printf("Will you continue? \n");
+        printf("Will you continue?\n");
         c=getche();
     }while(c=='y');
     return 0;
