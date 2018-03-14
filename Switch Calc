@@ -7,7 +7,7 @@ int main()
     int n,a,b,res;
     char opt;
     do {
-    printf("What operation would you like to do?");
+    printf("What operation would you like to do?\n");
     printf("Press 1 to addition \n");
     printf("Press 2 to subtraction \n");
     printf("Press 3 to multiplication \n");
