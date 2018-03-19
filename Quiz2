@@ -2,14 +2,19 @@
 
 int main()
 {
-    int a;
-    a = 0;
-    while (a < 100) {
-    ++a;
-    if (a%3==0){
-        printf("X\n");
-    }else{
-    printf("%d\n",a);
+    int x;
+    x = 0;
+    while (x < 100);
+    {
+    ++x;
+    if (x%3==0)
+        {
+        printf("x\n");
+        }
+    else
+        {
+        printf("%d\n",x);
+        }
     }
-      }return 0;
+    return 0;
 }
