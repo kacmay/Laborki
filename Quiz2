@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    a = 0;
+    while (a < 100) {
+    ++a;
+    if (a%3==0){
+        printf("X\n");
+    }else{
+    printf("%d\n",a);
+    }
+      }return 0;
+}
