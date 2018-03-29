@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+#define PI 3.14
+
+main()
+{
+  float radius, height, volume;
+
+  printf("\n Please Enter the radius of a circle\n");
+  scanf("%f",&radius);
+  printf("\n Please Enter the height of a circle\n");
+  scanf("%f", &height) ;
+  volume = PI*radius*radius*height;
+  printf("\n volume Of a Circle = %.2f\n", volume);
+
+  return 0;
+}
